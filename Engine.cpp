@@ -339,11 +339,11 @@ void Engine::processInput(GLFWwindow *window)
         camera->ProcessKeyboard(RIGHT, deltaTime);
 }
 
-Engine::Engine(GLint width, GLint height, std::string title)
+Engine::Engine(GLint width, GLint height, const std::string &title)
 {
     this->width = width;
     this->height = height;
-    this->title = std::move(title);
+    this->title = title;
 
     earth = new Sphere(1.0f);
     sun = new Sphere(7.0f);

@@ -16,10 +16,6 @@ glm/gtc/matrix_transform.hpp
 vector
 -
 
-/home/durda/CLionProjects/lab3_comp_graphics/Cubemap.cpp
-Cubemap.h
-/home/durda/CLionProjects/lab3_comp_graphics/Cubemap.h
-
 /home/durda/CLionProjects/lab3_comp_graphics/Cubemap.h
 vector
 -
@@ -68,10 +64,6 @@ glm/gtc/matrix_transform.hpp
 glm/gtc/type_ptr.hpp
 -
 
-/home/durda/CLionProjects/lab3_comp_graphics/Sphere.cpp
-Sphere.h
-/home/durda/CLionProjects/lab3_comp_graphics/Sphere.h
-
 /home/durda/CLionProjects/lab3_comp_graphics/Sphere.h
 vector
 -
@@ -113,8 +105,4 @@ intrin.h
 -
 arm_neon.h
 -
-
-/home/durda/CLionProjects/lab3_comp_graphics/main.cpp
-Engine.h
-/home/durda/CLionProjects/lab3_comp_graphics/Engine.h
 
