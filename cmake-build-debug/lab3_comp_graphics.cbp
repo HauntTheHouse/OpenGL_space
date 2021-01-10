@@ -5,47 +5,47 @@
 		<Option title="lab3_comp_graphics"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
+				<Option working_dir="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab3_comp_graphics">
-				<Option output="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/lab3_comp_graphics" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
+				<Option output="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/lab3_comp_graphics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
-					<Add directory="/home/durda/CLionProjects/lab3_comp_graphics"/>
+					<Add directory="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
+					<Add directory="/home/durda/CLionProjects/OpenGL_space"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -55,21 +55,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_comp_graphics"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_comp_graphics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab3_comp_graphics/fast">
-				<Option output="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/lab3_comp_graphics" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
+				<Option output="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/lab3_comp_graphics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug"/>
-					<Add directory="/home/durda/CLionProjects/lab3_comp_graphics"/>
+					<Add directory="/home/durda/CLionProjects/OpenGL_space/cmake-build-debug"/>
+					<Add directory="/home/durda/CLionProjects/OpenGL_space"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -79,60 +79,54 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_comp_graphics/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3_comp_graphics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Camera.h">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Camera.h">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Cubemap.cpp">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Cubemap.cpp">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Cubemap.h">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Cubemap.h">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Engine.cpp">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Engine.cpp">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Engine.h">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Engine.h">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Shader.h">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Shader.h">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Sphere.cpp">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Sphere.cpp">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/Sphere.h">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/Sphere.h">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/additional/glad.c">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/main.cpp">
 			<Option target="lab3_comp_graphics"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/additional/glad.h">
-			<Option target="lab3_comp_graphics"/>
-		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/main.cpp">
-			<Option target="lab3_comp_graphics"/>
-		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/CMakeLists.txt">
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
-		<Unit filename="/home/durda/CLionProjects/lab3_comp_graphics/../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		<Unit filename="/home/durda/CLionProjects/OpenGL_space/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

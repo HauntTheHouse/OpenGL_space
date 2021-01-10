@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durda/CLionProjects/lab3_comp_graphics
+CMAKE_SOURCE_DIR = /home/durda/CLionProjects/OpenGL_space
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/durda/CLionProjects/OpenGL_space/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab3_comp_graphics.dir/depend.make
@@ -77,74 +77,60 @@ include CMakeFiles/lab3_comp_graphics.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab3_comp_graphics.dir/flags.make
 
-CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o: CMakeFiles/lab3_comp_graphics.dir/flags.make
-CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o: ../additional/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o   -c /home/durda/CLionProjects/lab3_comp_graphics/additional/glad.c
-
-CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/durda/CLionProjects/lab3_comp_graphics/additional/glad.c > CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.i
-
-CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/durda/CLionProjects/lab3_comp_graphics/additional/glad.c -o CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.s
-
 CMakeFiles/lab3_comp_graphics.dir/main.cpp.o: CMakeFiles/lab3_comp_graphics.dir/flags.make
 CMakeFiles/lab3_comp_graphics.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/main.cpp.o -c /home/durda/CLionProjects/lab3_comp_graphics/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/main.cpp.o -c /home/durda/CLionProjects/OpenGL_space/main.cpp
 
 CMakeFiles/lab3_comp_graphics.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_comp_graphics.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/lab3_comp_graphics/main.cpp > CMakeFiles/lab3_comp_graphics.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/OpenGL_space/main.cpp > CMakeFiles/lab3_comp_graphics.dir/main.cpp.i
 
 CMakeFiles/lab3_comp_graphics.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_comp_graphics.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/lab3_comp_graphics/main.cpp -o CMakeFiles/lab3_comp_graphics.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/OpenGL_space/main.cpp -o CMakeFiles/lab3_comp_graphics.dir/main.cpp.s
 
 CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o: CMakeFiles/lab3_comp_graphics.dir/flags.make
 CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o: ../Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o -c /home/durda/CLionProjects/lab3_comp_graphics/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o -c /home/durda/CLionProjects/OpenGL_space/Engine.cpp
 
 CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/lab3_comp_graphics/Engine.cpp > CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/OpenGL_space/Engine.cpp > CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.i
 
 CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/lab3_comp_graphics/Engine.cpp -o CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/OpenGL_space/Engine.cpp -o CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.s
 
 CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o: CMakeFiles/lab3_comp_graphics.dir/flags.make
 CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o: ../Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o -c /home/durda/CLionProjects/lab3_comp_graphics/Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o -c /home/durda/CLionProjects/OpenGL_space/Sphere.cpp
 
 CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/lab3_comp_graphics/Sphere.cpp > CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/OpenGL_space/Sphere.cpp > CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.i
 
 CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/lab3_comp_graphics/Sphere.cpp -o CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/OpenGL_space/Sphere.cpp -o CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.s
 
 CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o: CMakeFiles/lab3_comp_graphics.dir/flags.make
 CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o: ../Cubemap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o -c /home/durda/CLionProjects/lab3_comp_graphics/Cubemap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o -c /home/durda/CLionProjects/OpenGL_space/Cubemap.cpp
 
 CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/lab3_comp_graphics/Cubemap.cpp > CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durda/CLionProjects/OpenGL_space/Cubemap.cpp > CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.i
 
 CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/lab3_comp_graphics/Cubemap.cpp -o CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durda/CLionProjects/OpenGL_space/Cubemap.cpp -o CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.s
 
 # Object files for target lab3_comp_graphics
 lab3_comp_graphics_OBJECTS = \
-"CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o" \
 "CMakeFiles/lab3_comp_graphics.dir/main.cpp.o" \
 "CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o" \
 "CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o" \
@@ -153,18 +139,14 @@ lab3_comp_graphics_OBJECTS = \
 # External object files for target lab3_comp_graphics
 lab3_comp_graphics_EXTERNAL_OBJECTS =
 
-lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/main.cpp.o
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/build.make
-lab3_comp_graphics: /usr/local/lib/libglfw3.a
-lab3_comp_graphics: /usr/lib/x86_64-linux-gnu/librt.so
-lab3_comp_graphics: /usr/lib/x86_64-linux-gnu/libm.so
-lab3_comp_graphics: /usr/lib/x86_64-linux-gnu/libX11.so
+lab3_comp_graphics: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 lab3_comp_graphics: CMakeFiles/lab3_comp_graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab3_comp_graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab3_comp_graphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab3_comp_graphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +159,6 @@ CMakeFiles/lab3_comp_graphics.dir/clean:
 .PHONY : CMakeFiles/lab3_comp_graphics.dir/clean
 
 CMakeFiles/lab3_comp_graphics.dir/depend:
-	cd /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durda/CLionProjects/lab3_comp_graphics /home/durda/CLionProjects/lab3_comp_graphics /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles/lab3_comp_graphics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/durda/CLionProjects/OpenGL_space/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durda/CLionProjects/OpenGL_space /home/durda/CLionProjects/OpenGL_space /home/durda/CLionProjects/OpenGL_space/cmake-build-debug /home/durda/CLionProjects/OpenGL_space/cmake-build-debug /home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles/lab3_comp_graphics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab3_comp_graphics.dir/depend
 

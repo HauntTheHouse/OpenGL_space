@@ -5,7 +5,7 @@
 #ifndef OPENGL_TEST_HELLOTRIANGLE_SHADER_H
 #define OPENGL_TEST_HELLOTRIANGLE_SHADER_H
 
-#include <glad/glad.h>
+#include <GL/glew.h>
 #include <string>
 #include <fstream>
 #include <sstream>

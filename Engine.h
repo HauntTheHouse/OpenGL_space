@@ -7,14 +7,18 @@
 
 #define STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_STATIC
-#include <glad/glad.h>
+#include <stb_image.h>
+
+#include <GL/glew.h>
 #include <GLFW/glfw3.h>
+
 #include <iostream>
 #include <string>
+
 #include "Sphere.h"
 #include "Cubemap.h"
 #include "Camera.h"
-#include "additional/stb_image.h"
+
 
 class Engine {
 private:

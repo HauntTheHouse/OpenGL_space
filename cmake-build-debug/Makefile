@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durda/CLionProjects/lab3_comp_graphics
+CMAKE_SOURCE_DIR = /home/durda/CLionProjects/OpenGL_space
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/durda/CLionProjects/OpenGL_space/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/durda/Documents/clion-2020.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles /home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/lab3_comp_graphics/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durda/CLionProjects/OpenGL_space/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab3_comp_graphics
+# Target rules for targets named OpenGL_space
 
 # Build rule for target.
-lab3_comp_graphics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3_comp_graphics
-.PHONY : lab3_comp_graphics
+OpenGL_space: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenGL_space
+.PHONY : OpenGL_space
 
 # fast build rule for target.
-lab3_comp_graphics/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/build
-.PHONY : lab3_comp_graphics/fast
+OpenGL_space/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/build
+.PHONY : OpenGL_space/fast
 
 Cubemap.o: Cubemap.cpp.o
 
@@ -149,7 +149,7 @@ Cubemap.o: Cubemap.cpp.o
 
 # target to build an object file
 Cubemap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Cubemap.cpp.o
 .PHONY : Cubemap.cpp.o
 
 Cubemap.i: Cubemap.cpp.i
@@ -158,7 +158,7 @@ Cubemap.i: Cubemap.cpp.i
 
 # target to preprocess a source file
 Cubemap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Cubemap.cpp.i
 .PHONY : Cubemap.cpp.i
 
 Cubemap.s: Cubemap.cpp.s
@@ -167,7 +167,7 @@ Cubemap.s: Cubemap.cpp.s
 
 # target to generate assembly for a file
 Cubemap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Cubemap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Cubemap.cpp.s
 .PHONY : Cubemap.cpp.s
 
 Engine.o: Engine.cpp.o
@@ -176,7 +176,7 @@ Engine.o: Engine.cpp.o
 
 # target to build an object file
 Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Engine.cpp.o
 .PHONY : Engine.cpp.o
 
 Engine.i: Engine.cpp.i
@@ -185,7 +185,7 @@ Engine.i: Engine.cpp.i
 
 # target to preprocess a source file
 Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Engine.cpp.i
 .PHONY : Engine.cpp.i
 
 Engine.s: Engine.cpp.s
@@ -194,7 +194,7 @@ Engine.s: Engine.cpp.s
 
 # target to generate assembly for a file
 Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Engine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Engine.cpp.s
 .PHONY : Engine.cpp.s
 
 Sphere.o: Sphere.cpp.o
@@ -203,7 +203,7 @@ Sphere.o: Sphere.cpp.o
 
 # target to build an object file
 Sphere.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Sphere.cpp.o
 .PHONY : Sphere.cpp.o
 
 Sphere.i: Sphere.cpp.i
@@ -212,7 +212,7 @@ Sphere.i: Sphere.cpp.i
 
 # target to preprocess a source file
 Sphere.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Sphere.cpp.i
 .PHONY : Sphere.cpp.i
 
 Sphere.s: Sphere.cpp.s
@@ -221,35 +221,8 @@ Sphere.s: Sphere.cpp.s
 
 # target to generate assembly for a file
 Sphere.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/Sphere.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/Sphere.cpp.s
 .PHONY : Sphere.cpp.s
-
-additional/glad.o: additional/glad.c.o
-
-.PHONY : additional/glad.o
-
-# target to build an object file
-additional/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.o
-.PHONY : additional/glad.c.o
-
-additional/glad.i: additional/glad.c.i
-
-.PHONY : additional/glad.i
-
-# target to preprocess a source file
-additional/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.i
-.PHONY : additional/glad.c.i
-
-additional/glad.s: additional/glad.c.s
-
-.PHONY : additional/glad.s
-
-# target to generate assembly for a file
-additional/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/additional/glad.c.s
-.PHONY : additional/glad.c.s
 
 main.o: main.cpp.o
 
@@ -257,7 +230,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -266,7 +239,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -275,7 +248,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3_comp_graphics.dir/build.make CMakeFiles/lab3_comp_graphics.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_space.dir/build.make CMakeFiles/OpenGL_space.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -286,7 +259,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab3_comp_graphics"
+	@echo "... OpenGL_space"
 	@echo "... Cubemap.o"
 	@echo "... Cubemap.i"
 	@echo "... Cubemap.s"
@@ -296,9 +269,6 @@ help:
 	@echo "... Sphere.o"
 	@echo "... Sphere.i"
 	@echo "... Sphere.s"
-	@echo "... additional/glad.o"
-	@echo "... additional/glad.i"
-	@echo "... additional/glad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

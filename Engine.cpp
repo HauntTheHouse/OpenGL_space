@@ -31,11 +31,12 @@ void Engine::init()
     }
     glfwMakeContextCurrent(window);
 
-    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
-    {
-        std::cout << "Failed to initialize GLAD" << std::endl;
-        exit(2);
-    }
+    glewInit();
+//    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+//    {
+//        std::cout << "Failed to initialize GLAD" << std::endl;
+//        exit(2);
+//    }
 
     glfwSetFramebufferSizeCallback(window, Engine::framebufferSizeCallback);
     glfwSetCursorPosCallback(window, mouseCallback);
