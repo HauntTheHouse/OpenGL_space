@@ -52,8 +52,8 @@ private:
     static void processInput(GLFWwindow* window);
 
 public:
-    Engine(int width, int height, const std::string &title);
-
+    Engine(int width, int height, std::string title);
+    ~Engine();
     void run();
 };
 

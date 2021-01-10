@@ -4,6 +4,8 @@
 
 #include "Engine.h"
 
+#include <utility>
+
 glm::vec3 lightPos(0.0f, 0.0f, 0.0f);
 glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
 
@@ -31,12 +33,11 @@ void Engine::init()
     }
     glfwMakeContextCurrent(window);
 
-    glewInit();
-//    if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
-//    {
-//        std::cout << "Failed to initialize GLAD" << std::endl;
-//        exit(2);
-//    }
+    if(glewInit())
+    {
+        std::cout << "Failed to initialize GLEW" << std::endl;
+        exit(2);
+    }
 
     glfwSetFramebufferSizeCallback(window, Engine::framebufferSizeCallback);
     glfwSetCursorPosCallback(window, mouseCallback);
@@ -340,12 +341,8 @@ void Engine::processInput(GLFWwindow *window)
         camera->ProcessKeyboard(RIGHT, deltaTime);
 }
 
-Engine::Engine(GLint width, GLint height, const std::string &title)
+Engine::Engine(GLint w, GLint h, std::string t) : width(w), height(h), title(std::move(t)), cubemapTexture(0)
 {
-    this->width = width;
-    this->height = height;
-    this->title = title;
-
     earth = new Sphere(1.0f);
     sun = new Sphere(7.0f);
     cubemap = new Cubemap();
@@ -353,9 +350,18 @@ Engine::Engine(GLint width, GLint height, const std::string &title)
     VAO = new unsigned int(3);
     VBO = new unsigned int(3);
     EBO = new unsigned int(2);
-    cubemapTexture = 0;
 }
 
+Engine::~Engine()
+{
+    delete[] earth;
+    delete[] sun;
+    delete[] cubemap;
+
+    delete[] VAO;
+    delete[] VBO;
+    delete[] EBO;
+}
 void Engine::run()
 {
     init();
